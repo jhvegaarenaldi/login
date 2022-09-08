@@ -6,7 +6,7 @@ header,
 }
 
 .video-container {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -47,7 +47,7 @@ header,
     font-size: 16px;
 }
 
-#name {
+#pass {
     background-color: rgba(0, 0, 0, 0);
     color: white;
     border: none;
@@ -58,7 +58,7 @@ header,
     -webkit-transition: height 1s;
   }
   
-  #name:focus {
+  #pass:focus {
       height: 50px;
       font-size: 16px;
   }
@@ -68,7 +68,7 @@ header,
     background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
     background-color: #f9f9f9;
     border-radius: 6px;
-    border: outset;
+    border: outset; 
     cursor: pointer;
     color: #666666;
     font-family: Arial;
@@ -78,4 +78,13 @@ header,
     text-decoration: none;
     text-shadow: 0px 1px 0px #ffffff ;
   }
+
+  .myButton:hover{
+    background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+    background-color: #e9e9e9;
+  }
   
+  .myButton:active{
+    position: relative;
+    top: 5px;
+  }
